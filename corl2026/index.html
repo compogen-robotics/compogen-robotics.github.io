@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <title>Compositional Generalization for Real-World Robot Learning @ CoRL 2026</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<div class="nav">
+  <div class="nav-container">
+    <a href="#intro">Introduction</a>
+    <a href="#challenges">Topics</a>
+    <a href="#speakers">Speakers</a>
+    <a href="#cfp">Call for Papers</a>
+    <a href="#schedule">Schedule</a>
+    <a href="#organizers">Organizers</a>
+    <a href="#contact">Contact</a>
+  </div>
+</div>
+
+<div class="title-container">
+  <div style="text-align: center;">
+    <h1>Compositional Generalization for Real-World Robot Learning</h1>
+    <div class="subtitle" style="color: #ccc; margin: 20px">
+      A half-day workshop at CoRL 2026
+    </div>
+    <div class="subtitle" style="color: #ccc; margin: 20px">
+      Date &amp; Location TBA
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="section" id="intro">
+    <h2>Introduction</h2>
+    <p>
+      Compositional, or modular, learning enables systems to exploit the structure of a problem by building abstractions between functionally distinct components. By <i>compositionality</i> we mean the principle that a small set of reusable modules &mdash; skills, representations, sub-goals, or controllers &mdash; can be recombined according to rules to cover a combinatorially large space of behaviors. These structural assumptions reduce the sample complexity of the learning system, which has driven increasing adoption of compositional approaches in robotics, primarily because the diversity and lack of standardization across robot embodiments, observational modalities, and task goals make collecting data that supports all combinations infeasible.
+    </p>
+    <p>
+      As the community scales data and builds large foundation models, one could argue that these models approximate compositional behavior across the scaled modality, embodiment, and goal combinations. However, this approximation is incomplete in ways that matter for robotics. Certain modalities, such as force and tactile sensing, are intrinsically difficult to scale and standardize across setups; high-dimensional modalities such as vision restrict data collection and confine deployment to controlled environments; and foundation models are trained on corpora covering only a small selection of today's embodiments, while new embodiments are continuously built and adopted across labs, rendering many such models inapplicable.
+    </p>
+    <p>
+      This half-day workshop solicits novel work that uses the principle of compositionality or modularity to tackle learning problems in robotics. In particular, we encourage approaches that leverage the representational power of scaled systems while retaining the structure of modular ones &mdash; getting the best of both worlds. As scaling reshapes robot learning, the open question is not whether to scale or to compose, but <i>where</i> scaling suffices and <i>where</i> explicit composition remains necessary.
+    </p>
+
+    <h3>Intended Audience</h3>
+    <p>
+      The workshop targets a diverse, interdisciplinary audience spanning robotics, machine learning, and embodied AI:
+    </p>
+    <ul>
+      <li>Researchers in reinforcement and imitation learning building hierarchical and skill-based policies;</li>
+      <li>Foundation-model and VLA practitioners interested in where scaled representations fall short;</li>
+      <li>Researchers in neuro-symbolic AI, task and motion planning, multimodal sensing, and control interested in modular, reusable, and transferable robot behavior.</li>
+    </ul>
+  </div>
+
+  <div class="section" id="challenges">
+    <h2>Core Challenges &amp; Topics</h2>
+    <ul>
+      <li><b>Modality composition.</b> Can we develop modular systems that compose scaled modality representations (e.g., vision and language) with modules learned for data-scarce modalities such as force and tactile sensing? What interfaces let abundant, internet-scale representations cover the gaps left by modalities that are intrinsically hard to scale and standardize?</li>
+      <li><b>Interfacing modules.</b> How can we develop better abstractions for effective modularization in robotics &mdash; for example, for long-horizon manipulation, or for embodiment transfer of policies across robots that differ in morphology and action space? What representation spaces (language, latent embeddings, spatial goal states, controllers) allow modules to be sequenced and recombined reliably?</li>
+      <li><b>The role of agents in robotics.</b> How can we leverage modular, agentic systems &mdash; high-level reasoners that invoke specialized skills, tools, and controllers &mdash; to perform manipulation in the real world? When is an agentic, modular decomposition stronger than an end-to-end monolithic policy, and when does scaling subsume it?</li>
+      <li><b>Evaluation and benchmarking for compositionality.</b> Current benchmarks largely measure end-to-end task success but fail to assess the modularity, reusability, or transfer of learned components. How should the community design physical and simulated benchmarks that explicitly evaluate compositional generalization, including across novel modality, embodiment, and goal combinations?</li>
+    </ul>
+  </div>
+
+  <div class="section" id="speakers">
+    <h2>Invited Speakers</h2>
+    <div class="people">
+      <a href="https://jiayuanm.com/">
+        <img src="images/placeholder.svg">
+        <div>Jiayuan Mao</div>
+        <div class="aff">University of Pennsylvania</div>
+      </a>
+
+      <a href="https://www.user.tu-berlin.de/mtoussai/">
+        <img src="images/placeholder.svg">
+        <div>Marc Toussaint</div>
+        <div class="aff">TU Berlin</div>
+      </a>
+
+      <a href="https://people.csail.mit.edu/lpk/">
+        <img src="images/placeholder.svg">
+        <div>Leslie Pack Kaelbling</div>
+        <div class="aff">MIT</div>
+      </a>
+
+      <a href="https://geometry.stanford.edu/member/guibas/">
+        <img src="images/placeholder.svg">
+        <div>Leonidas Guibas</div>
+        <div class="aff">Stanford University</div>
+      </a>
+    </div>
+  </div>
+  <br>
+
+  <div class="section" id="cfp">
+    <h2>Call for Papers</h2>
+    <p>
+      We will run a selective contributed track (short papers and posters) reviewed for technical correctness, reproducibility, and actionable artifacts (e.g., skill libraries, benchmarks, datasets, metrics, or well-documented system case studies). We explicitly welcome works-in-progress and negative/ablation results, and encourage authors to share code and evaluation details.
+    </p>
+    <p>
+      Submissions are <b>non-archival</b>. Per CoRL policy, we will not accept work already published or accepted to the CoRL 2026 main conference. Accepted poster abstracts (and optional PDFs, with author permission) will be hosted here to help attendees identify relevant work.
+    </p>
+    <p>
+      <b>Submission instructions and deadlines: TBA.</b>
+    </p>
+  </div>
+
+  <div class="section" id="schedule">
+    <h2>Schedule</h2>
+    <p>This is a half-day, in-person workshop. All times are tentative.</p>
+    <table style="width: 100%;">
+      <colgroup>
+        <col style="width: 20%;">
+        <col style="width: 80%;">
+      </colgroup>
+      <tr>
+        <th>Time</th>
+        <th>Event</th>
+      </tr>
+      <tr>
+        <td>8:30 AM</td>
+        <td>Welcome &amp; Framing</td>
+      </tr>
+      <tr>
+        <td>8:45 AM</td>
+        <td>Invited Speaker 1</td>
+      </tr>
+      <tr>
+        <td>9:10 AM</td>
+        <td>Invited Speaker 2</td>
+      </tr>
+      <tr>
+        <td>9:35 AM</td>
+        <td>Poster Session, Lightning Pitches &amp; Coffee Break</td>
+      </tr>
+      <tr>
+        <td>10:20 AM</td>
+        <td>Invited Speaker 3</td>
+      </tr>
+      <tr>
+        <td>10:45 AM</td>
+        <td>Invited Speaker 4</td>
+      </tr>
+      <tr>
+        <td>11:10 AM</td>
+        <td>Panel Debate</td>
+      </tr>
+      <tr>
+        <td>11:50 AM</td>
+        <td>Facilitated Breakout Groups</td>
+      </tr>
+      <tr>
+        <td>12:20 PM</td>
+        <td>Breakout Report-Back &amp; Conclusion</td>
+      </tr>
+      <tr>
+        <td>12:30 PM</td>
+        <td>Workshop Ends</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="section" id="organizers">
+    <h2>Organizers</h2>
+    <div class="people">
+      <a href="#">
+        <img src="images/placeholder.svg">
+        <div>Haonan Chen</div>
+        <div class="aff">Harvard / Stanford</div>
+      </a>
+
+      <a href="https://shaoxiongyao.github.io/">
+        <img src="images/placeholder.svg">
+        <div>Shaoxiong Yao</div>
+        <div class="aff">UIUC</div>
+      </a>
+
+      <a href="#">
+        <img src="images/placeholder.svg">
+        <div>Wensi Ai</div>
+        <div class="aff">Stanford University</div>
+      </a>
+
+      <a href="https://yilundu.github.io/">
+        <img src="images/placeholder.svg">
+        <div>Yilun Du</div>
+        <div class="aff">Harvard University</div>
+      </a>
+
+      <a href="https://jiajunwu.com/">
+        <img src="images/placeholder.svg">
+        <div>Jiajun Wu</div>
+        <div class="aff">Stanford University</div>
+      </a>
+    </div>
+  </div>
+
+  <div class="section" id="contact">
+    <h2>Contact</h2>
+    <div>For questions and comments, please contact <a href="mailto:haonan_chen@seas.harvard.edu">haonan_chen@seas.harvard.edu</a>.</div>
+  </div>
+
+  <div class="foot">
+    &copy; Compositional Generalization Workshop @ CoRL 2026
+  </div>
+</div>
+
+
+</body>
+
+</html>
