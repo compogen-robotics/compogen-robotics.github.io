@@ -1,6 +1,18 @@
 # Compositional Generalization for Real-World Robot Learning
 
-Website for the **Compositional Generalization for Real-World Robot Learning** workshop, a proposed half-day, in-person workshop at CoRL 2026. The workshop solicits novel work that uses the principle of compositionality or modularity to tackle learning problems in robotics, with a focus on approaches that leverage the representational power of scaled systems while retaining the structure of modular ones.
+Website for the **Compositional Generalization for Real-World Robot Learning** workshop, a half-day, in-person workshop at CoRL 2026 on November 12, 2026, 8:30 AM–12:30 PM CST, in Rooms 310–311 (Level 3), JW Marriott Austin. The workshop solicits novel work that uses the principle of compositionality or modularity to tackle learning problems in robotics, with a focus on approaches that leverage the representational power of scaled systems while retaining the structure of modular ones.
+
+## Venue and program sources
+
+The November 8 website update uses the [CoRL organizer spreadsheet](https://docs.google.com/spreadsheets/d/1wF6RirHy43dtA48in8Rr4zON4t-afQCFbptS--Ty1Oc/edit) and [venue reference folder](https://drive.google.com/drive/folders/1Tz0olWIQLFluEX49Xvc-I6JNZFcfdJD_):
+
+- **Room Assignment, row 13:** JW Marriott, Rooms 310–311; morning session 8:30 AM–12:30 PM. The organizer confirmed using these assignments on the website without a tentative label.
+- **Organizer Input, row 39:** poster session 9:35–10:20 AM.
+- **Poster Board Assignment, row 18:** Lone Star (Level 3), boards JW3-35-1 through JW3-44-1; 10 boards with capacity for 40 posters. Capacity is not an accepted-paper count.
+- **Map:** `images/jw-marriott-level-3.png` is a rendered excerpt of page 2 of `venue/jw-marriott-floor-plans.pdf`, the supplied *JW Full Capacity Charts 2020.pdf*. It shows the venue layout, not individual poster-board placement.
+- **Program:** at the organizer's request, the panel and facilitated breakout discussions share one 11:10 AM–12:20 PM slot; the 12:20 PM award announcement and 12:30 PM end time are unchanged.
+
+The source materials do not establish the invited-talk order or titles, individual paper-to-board assignments, poster dimensions, or poster setup/removal times. Add these when provided by the organizers; do not infer poster dimensions from the venue planning drawings.
 
 ## Debugging / Local Development
 
