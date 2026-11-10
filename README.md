@@ -12,7 +12,7 @@ The November 8 website update uses the [CoRL organizer spreadsheet](https://docs
 - **Map:** `images/jw-marriott-level-3.png` is a rendered excerpt of page 2 of `venue/jw-marriott-floor-plans.pdf`, the supplied *JW Full Capacity Charts 2020.pdf*. It shows the venue layout, not individual poster-board placement.
 - **Program:** at the organizer's request, the panel and facilitated breakout discussions share one 11:10 AM–12:20 PM slot; the 12:20 PM award announcement and 12:30 PM end time are unchanged.
 
-The source materials do not establish the invited-talk order or titles, individual paper-to-board assignments, poster dimensions, or poster setup/removal times. Add these when provided by the organizers; do not infer poster dimensions from the venue planning drawings.
+The invited-talk order follows the organizer’s speaker invitations: Jiayuan Mao (8:45 AM), Marc Toussaint (9:10 AM), Leslie Pack Kaelbling (10:20 AM), and Danfei Xu (10:45 AM), all Austin local time (CST, UTC−6). The invitations were corrected on November 9 to match these website times. The source materials do not establish talk titles, individual paper-to-board assignments, poster dimensions, or poster setup/removal times. Add these when provided by the organizers; do not infer poster dimensions from the venue planning drawings.
 
 ## Debugging / Local Development
 
