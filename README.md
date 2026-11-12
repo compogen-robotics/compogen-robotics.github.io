@@ -4,11 +4,11 @@ Website for the **Compositional Generalization for Real-World Robot Learning** w
 
 ## Venue and program sources
 
-The November 8 website update uses the [CoRL organizer spreadsheet](https://docs.google.com/spreadsheets/d/1wF6RirHy43dtA48in8Rr4zON4t-afQCFbptS--Ty1Oc/edit) and [venue reference folder](https://drive.google.com/drive/folders/1Tz0olWIQLFluEX49Xvc-I6JNZFcfdJD_):
+The November 8 website update uses the CoRL organizer spreadsheet and [venue reference folder](https://drive.google.com/drive/folders/1Tz0olWIQLFluEX49Xvc-I6JNZFcfdJD_):
 
 - **Room Assignment, row 13:** JW Marriott, Rooms 310–311; morning session 8:30 AM–12:30 PM. The organizer confirmed using these assignments on the website without a tentative label.
 - **Organizer Input, row 39:** poster session 9:35–10:20 AM.
-- **Poster Board Assignment, row 18 (finalized update, November 12):** Lone Star Ballroom (Level 3), boards **072L–091R**; L/R indicate the left/right sides of each board. This supersedes the previous JW3 board numbering. [Finalized assignment](https://docs.google.com/spreadsheets/d/1wF6RirHy43dtA48in8Rr4zON4t-afQCFbptS--Ty1Oc/edit#gid=1736249982&range=A18:L18).
+- **Poster Board Assignment, row 18 (finalized update, November 12):** Lone Star Ballroom (Level 3), boards **072L–091R**; L/R indicate the left/right sides of each board. This supersedes the previous JW3 board numbering.
 - **Map:** `images/jw-marriott-level-3.png` is a rendered excerpt of page 2 of `venue/jw-marriott-floor-plans.pdf`, the supplied *JW Full Capacity Charts 2020.pdf*. It shows the venue layout, not individual poster-board placement.
 - **Program:** at the organizer's request, the panel and facilitated breakout discussions share one 11:10 AM–12:20 PM slot; the 12:20 PM award announcement and 12:30 PM end time are unchanged.
 
